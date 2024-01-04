@@ -3,9 +3,8 @@ import wmi
 import subprocess
 import os
 import struct
-import requests
-import json
 from time import sleep
+import sys
 
 username = os.getlogin()
 directory_path = f'C:\\Users\\{username}\\AppData\\Local\\Temp'
